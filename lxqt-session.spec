@@ -22,6 +22,7 @@ BuildRequires:	liblxqt-devel >= 2.3.0
 BuildRequires:	libqtxdg-devel >= 4.3.0
 BuildRequires:	procps-devel
 BuildRequires:	qt6-linguist >= %{qtver}
+BuildRequires:	qtxdg-tools >= 4.3.0
 BuildRequires:	udev-devel
 BuildRequires:	xdg-user-dirs
 BuildRequires:	xz-devel
