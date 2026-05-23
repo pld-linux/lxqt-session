@@ -6,23 +6,23 @@
 Summary:	Main session for LXQt desktop suite
 Summary(pl.UTF-8):	Główna sesja dla środowiska LXQt
 Name:		lxqt-session
-Version:	2.3.0
+Version:	2.4.0
 Release:	1
 License:	GPLv2 and LGPL-2.1+
 Group:		X11/Applications
 Source0:	https://github.com/lxqt/lxqt-session/releases/download/%{version}/%{name}-%{version}.tar.xz
-# Source0-md5:	906806304592ba40b71b074c848d4e3e
+# Source0-md5:	42a340dbb742c6afb872cb3bd5a6eeda
 URL:		http://www.lxqt.org/
 BuildRequires:	Qt6DBus-devel >= %{qtver}
 BuildRequires:	Qt6Widgets-devel >= %{qtver}
 BuildRequires:	cmake >= 3.18.0
 BuildRequires:	kf6-kwindowsystem-devel >= 6.0.0
 BuildRequires:	kp6-layer-shell-qt-devel >= 6.0.0
-BuildRequires:	liblxqt-devel >= 2.3.0
-BuildRequires:	libqtxdg-devel >= 4.3.0
+BuildRequires:	liblxqt-devel >= 2.4.0
+BuildRequires:	libqtxdg-devel >= 4.4.0
 BuildRequires:	procps-devel
 BuildRequires:	qt6-linguist >= %{qtver}
-BuildRequires:	qtxdg-tools >= 4.3.0
+BuildRequires:	qtxdg-tools >= 4.4.0
 BuildRequires:	udev-devel
 BuildRequires:	xdg-user-dirs
 BuildRequires:	xz-devel
